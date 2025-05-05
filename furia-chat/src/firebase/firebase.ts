@@ -6,12 +6,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebase = {
-  apiKey: "AIzaSyAulc9XW32QFBiVF-nmhp76vmA04Y3F-Dw",
-  authDomain: "furia-chat-db87f.firebaseapp.com",
-  projectId: "furia-chat-db87f",
-  storageBucket: "furia-chat-db87f.firebasestorage.app",
-  messagingSenderId: "713209715246",
-  appId: "1:713209715246:web:59298ca8b77d53aac39dbf"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
