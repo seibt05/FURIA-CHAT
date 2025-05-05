@@ -1,0 +1,82 @@
+# FURIA Chat
+
+Bem-vindo ao **Zona da FURIA **, um aplicativo de chat em tempo real desenvolvido com React, Firebase e Vite. Este projeto foi criado para demonstrar funcionalidades de mensagens em tempo real com uma interface moderna e responsiva.
+
+## 🚀 Tecnologias Utilizadas
+
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **Firebase**: Backend para autenticação, banco de dados em tempo real (Firestore) e hospedagem.
+- **Vite**: Ferramenta de build rápida para desenvolvimento front-end.
+- **CSS**: Estilização personalizada para uma interface moderna.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```plaintext
+furia-chat/
+├── public/                # Arquivos estáticos
+├── src/                   # Código-fonte principal
+│   ├── assets/            # Imagens e outros recursos estáticos
+│   ├── components/        # Componentes React reutilizáveis
+│   │   └── Chat.tsx       # Componente principal do chat
+│   ├── firebase/          # Configurações do Firebase
+│   │   └── firebase.ts    # Configuração inicial do Firebase
+│   ├── styles/            # Arquivos de estilo (CSS)
+│   │   └── index.css      # Estilos globais
+│   ├── App.tsx            # Componente principal da aplicação
+│   ├── main.tsx           # Ponto de entrada do React
+│   └── vite-env.d.ts      # Tipos do Vite
+├── package.json           # Configuração do npm e dependências
+├── tsconfig.json          # Configuração do TypeScript
+├── vite.config.ts         # Configuração do Vite
+└── README.md              # Documentação do projeto
+
+
+
+```
+
+## ⚙️ Configuração e Execução
+
+Pré-requisitos
+Node.js (versão 16 ou superior)
+npm ou yarn
+
+## Instale as dependências:
+npm install
+
+
+## Configuração do Firebase
+Crie um projeto no Firebase Console e ative o Firestore e a autenticação (Email/Password).
+Substitua as credenciais do Firebase no arquivo `src/firebase/firebase.ts` com as suas credenciais do projeto Firebase.
+
+EXEMPLO DE CREDENCIAIS DO FIREBASE:
+
+const firebaseConfig = {
+  apiKey: "SUA_API_KEY",
+  authDomain: "SEU_AUTH_DOMAIN",
+  projectId: "SEU_PROJECT_ID",
+  storageBucket: "SEU_STORAGE_BUCKET",
+  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
+  appId: "SEU_APP_ID",
+};
+
+
+## Inicie o servidor de desenvolvimento:
+npm run dev
+Abra o navegador e acesse `http://localhost:5173` para ver o aplicativo em ação.
+
+
+## 📖 Funcionalidades
+Mensagens em tempo real: Envie e receba mensagens instantaneamente.
+Interface moderna: Design responsivo e estilizado com CSS.
+Gerenciamento de mensagens: Adicione e exclua mensagens no Firestore.
+
+
+## 📞 Contato
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- Autor: Matheus Seibt
+- E-mail: matheus.seibt@gmail.com
+- Linkedin: https://www.linkedin.com/in/seibt-990898213/
+
